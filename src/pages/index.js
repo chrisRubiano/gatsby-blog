@@ -15,19 +15,19 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+        <img style={{ margin: 0 }} src="./programmer.svg" alt="Gatsby Scene" />
         <h1>
-          Hey people{" "}
+          Hola! {" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
         </h1>
-        <p>Bienvenidos a mi página!</p>
+        <p>Bienvenidos a mi página</p>
         <p>
           Aquí debe de ir una descripción bien chila sobre quién soy y lo que hago.
         </p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="35px">Ir al blog</Button>
         </Link>
       </Layout>
     )

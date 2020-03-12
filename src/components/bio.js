@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Escrito por <strong>{author}</strong> que trabaja y hace cosas interesantes en Hermosillo, Sonora.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Deberías seguirlo en twitter
               </a>
             </p>
           </Container>
